@@ -1,3 +1,6 @@
+" no really, 256 colors
+set t_Co=256
+
 " do the Pathogen thing
 call pathogen#infect()
 

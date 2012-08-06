@@ -1,6 +1,6 @@
-# vim:et sts=4 sw=4 ai:
 bindkey -v
+set CASE_GLOB
 umask 002
-alias cleanup="find . -name ._\\* -exec rm \"{}\" \\;"
 
-export PATH="/usr/local/bin:$PATH"
+alias cleanup=find . -name ._\* -exec rm "{}" \;
+alias gitlog=git log --graph --pretty="format:%h %cn - %s %d (%cr)"

@@ -2,3 +2,5 @@
 bindkey -v
 umask 002
 alias cleanup="find . -name ._\\* -exec rm \"{}\" \\;"
+
+export PATH="/usr/local/bin:$PATH"

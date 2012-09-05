@@ -7,11 +7,11 @@ symlink:
 
 freshen:
 	# temp dir
-	mkdir tmp;
+	mkdir -p tmp
 	# Tomorrow theme: https://github.com/chriskempson/tomorrow-theme/
-	rm -f tmp/tomorrow
+	rm -rf tmp/tomorrow
 	git clone git://github.com/chriskempson/tomorrow-theme.git tmp/tomorrow
 	cp tmp/tomorrow/vim/colors/*.vim vim/colors
-	# clean up after yourself
-	# rm -f tmp
 
+clean:
+	rm -rf tmp

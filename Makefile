@@ -2,7 +2,7 @@ SYMLINKS ?= gitconfig screenrc vim vimrc zshenv zshrc
 
 symlink:
 	for filename in $(SYMLINKS); do \
-		echo "ln -s ~/.$$filename $$filename"; \
+		ln -s ~/.$$filename $$filename; \
 	done
 
 freshen:

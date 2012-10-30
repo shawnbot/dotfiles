@@ -6,5 +6,5 @@ export PAGER=less
 export RSYNC_RSH=ssh
 
 # prioritize Homebrew and other locally installed binaries
-export PATH="/usr/local/bin:$PATH"
 export NODE_PATH="/usr/local/share/npm/bin"
+export PATH="/usr/local/bin:$NODE_PATH:$PATH"

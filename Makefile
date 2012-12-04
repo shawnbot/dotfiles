@@ -1,4 +1,4 @@
-SYMLINKS ?= gitconfig screenrc vim vimrc zshenv zshrc
+SYMLINKS ?= gitconfig screenrc vim vimrc zshenv zshrc inputrc
 
 symlink:
 	cd ~ && for filename in $(SYMLINKS); do \

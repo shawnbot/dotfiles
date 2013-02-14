@@ -7,4 +7,5 @@ export RSYNC_RSH=ssh
 
 # prioritize Homebrew and other locally installed binaries
 export NODE_PATH="/usr/local/share/npm/bin"
-export PATH="/usr/local/bin:$NODE_PATH:$PATH"
+export GDAL_PATH="/Library/Frameworks/GDAL.framework/Programs"
+export PATH="$GDAL_PATH:$NODE_PATH:/usr/local/bin:$PATH"

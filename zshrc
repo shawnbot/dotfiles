@@ -1,3 +1,4 @@
+autoload -U compinit && compinit
 bindkey -v
 set CASE_GLOB
 umask 002

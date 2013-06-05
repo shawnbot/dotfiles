@@ -7,3 +7,6 @@
 [submodule "vim/bundle/vim-powerline"]
 	path = vim/bundle/vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule "zsh/pure"]
+	path = zsh/pure
+	url = git://github.com/sindresorhus/pure.git

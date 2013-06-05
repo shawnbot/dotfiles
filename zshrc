@@ -5,3 +5,5 @@ umask 002
 
 alias cleanup=find . -name ._\* -exec rm "{}" \;
 alias gitlog=git log --graph --pretty="format:%h %cn - %s %d (%cr)"
+
+" . ~/dotfiles/zsh/pure/prompt.zsh

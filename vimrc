@@ -15,7 +15,7 @@ colorscheme molokai
 syntax enable
 filetype plugin indent on
 
-set et sts=4 sw=4
+set et ts=4 sts=4 sw=4
 
 " noremap Z <Esc>:syntax sync fromstart<CR>
 " inoremap Z <C-o>:syntax sync fromstart<CR>

@@ -10,3 +10,6 @@
 [submodule "zsh/pure"]
 	path = zsh/pure
 	url = git://github.com/sindresorhus/pure.git
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git

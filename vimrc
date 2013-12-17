@@ -7,7 +7,7 @@ call pathogen#infect()
 call pathogen#helptags()
 
 set list
-set listchars=tab:→⋅,trail:⋅,nbsp:⋅
+set listchars=tab:→⋅,trail:⋅,nbsp:⋅,extends:…
 
 set nu encoding=utf-8
 set nowrap

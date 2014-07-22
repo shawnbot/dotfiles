@@ -36,5 +36,5 @@ set ts=4 sts=4 sw=4
 set autoindent
 set nofoldenable
 
-" noremap Z <Esc>:syntax sync fromstart<CR>
-" inoremap Z <C-o>:syntax sync fromstart<CR>
+noremap <F5> <Esc>:syntax sync fromstart<CR>
+inoremap <F5> <C-o>:syntax sync fromstart<CR>

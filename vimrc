@@ -28,6 +28,9 @@ colorscheme molokai
 syntax enable
 filetype plugin indent on
 
+" Markdown
+let g:markdown_fenced_languages = ['css', 'javascript', 'js=javascript', 'json=javascript', 'ruby', 'sass', 'xml']
+
 set expandtab
 set ts=4 sts=4 sw=4
 set autoindent

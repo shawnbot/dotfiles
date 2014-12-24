@@ -6,5 +6,6 @@ umask 002
 alias cleanup=find . -name ._\* -exec rm "{}" \;
 alias gitlog=git log --graph --pretty="format:%h %cn - %s %d (%cr)"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+alias insert-license="wget -q https://raw.githubusercontent.com/18F/open-source-policy/master/LICENSE.md"
+alias insert-contrib="wget -q https://raw.githubusercontent.com/18F/open-source-policy/master/CONTRIBUTING.md"
+alias 18f-init="insert-license && insert-contrib && echo 'Licensed.'"

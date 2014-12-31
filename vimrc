@@ -24,7 +24,7 @@ if v:version >= 703
 endif
 
 set background=dark
-colorscheme molokai
+colorscheme jellybeans
 syntax enable
 filetype plugin indent on
 

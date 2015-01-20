@@ -1,17 +1,18 @@
-SYMLINKS ?= gitconfig screenrc vim vimrc zshenv zshrc inputrc gitignore
+SYMLINKS ?= \
+	gitconfig \
+	gitignore \
+	inputrc \
+	jshintrc \
+	screenrc \
+	vim \
+	vimrc \
+	zshenv \
+	zshrc
+
+all: symlink
 
 symlink:
-	cd ~ && for filename in $(SYMLINKS); do \
-		ln -s dotfiles/$$filename .$$filename; \
+	@rm -f ~/.vim # this will fail if ~/.vim is a directory
+	@cd ~ && for filename in $(SYMLINKS); do \
+		ln -vis dotfiles/$$filename .$$filename; \
 	done
-
-freshen:
-	# temp dir
-	mkdir -p tmp
-	# Tomorrow theme: https://github.com/chriskempson/tomorrow-theme/
-	rm -rf tmp/tomorrow
-	git clone git://github.com/chriskempson/tomorrow-theme.git tmp/tomorrow
-	cp tmp/tomorrow/vim/colors/*.vim vim/colors
-
-clean:
-	rm -rf tmp

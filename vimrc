@@ -19,6 +19,7 @@ set laststatus=2
 set showcmd
 set showmode
 
+set completeopt=menu
 set list
 set listchars=tab:→⋅,trail:⋅,nbsp:⋅,extends:…
 

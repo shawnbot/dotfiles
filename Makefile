@@ -1,4 +1,5 @@
 SYMLINKS ?= \
+	agignore \
 	gitconfig \
 	gitignore \
 	inputrc \

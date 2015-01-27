@@ -25,3 +25,6 @@
 [submodule "vim/bundle/jshint2"]
 	path = vim/bundle/jshint2
 	url = git@github.com:Shutnik/jshint2.vim.git
+[submodule "vim/bundle/VimCompletesMe"]
+	path = vim/bundle/VimCompletesMe
+	url = https://github.com/ajh17/VimCompletesMe.git

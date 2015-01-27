@@ -31,3 +31,6 @@
 [submodule "vim/bundle/javascript"]
 	path = vim/bundle/javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/bundle/nodejs-complete"]
+	path = vim/bundle/nodejs-complete
+	url = https://github.com/myhere/vim-nodejs-complete.git

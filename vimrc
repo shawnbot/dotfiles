@@ -18,6 +18,7 @@ set laststatus=2
 
 set showcmd
 set showmode
+set cursorline
 
 set completeopt=menu
 set list
@@ -39,6 +40,6 @@ if v:version >= 703
 endif
 
 noremap <F5> <Esc>:syntax sync fromstart<CR>
-inoremap <F5> <Esc>:syntax sync fromstart<CR>
+inoremap <F5> <C-O>:syntax sync fromstart<CR>
 noremap <C-j> <Esc>:JSHint<CR>
 inoremap <C-j> <Esc>:JSHint<CR>

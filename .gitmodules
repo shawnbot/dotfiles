@@ -28,3 +28,6 @@
 [submodule "vim/bundle/VimCompletesMe"]
 	path = vim/bundle/VimCompletesMe
 	url = https://github.com/ajh17/VimCompletesMe.git
+[submodule "vim/bundle/javascript"]
+	path = vim/bundle/javascript
+	url = https://github.com/pangloss/vim-javascript.git

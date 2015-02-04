@@ -34,3 +34,6 @@
 [submodule "vim/bundle/nodejs-complete"]
 	path = vim/bundle/nodejs-complete
 	url = https://github.com/myhere/vim-nodejs-complete.git
+[submodule "vim/bundle/css3"]
+	path = vim/bundle/css3
+	url = git@github.com:hail2u/vim-css3-syntax.git

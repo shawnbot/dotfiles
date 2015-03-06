@@ -8,7 +8,6 @@ export RSYNC_RSH=ssh
 # prioritize Homebrew and other locally installed binaries
 export NODE_PATH="/usr/local/lib/node_modules:/usr/local/lib/node"
 export GDAL_PATH="/Library/Frameworks/GDAL.framework/Programs"
-export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 export PATH="/usr/local/bin:/usr/local/opt/ruby/bin:$NODE_PATH:$PATH"
 
 # virtualenvwrapper

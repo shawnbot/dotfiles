@@ -19,3 +19,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 if [ "$VIRTUAL_ENV" ]; then 
     source $VIRTUAL_ENV/bin/activate; 
 fi
+
+# autoenv
+source /usr/local/opt/autoenv/activate.sh

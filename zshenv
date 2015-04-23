@@ -21,4 +21,4 @@ if [ "$VIRTUAL_ENV" ]; then
 fi
 
 # autoenv
-source /usr/local/opt/autoenv/activate.sh
+[ -s /usr/local/opt/autoenv ] && source /usr/local/opt/autoenv/activate.sh

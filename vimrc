@@ -39,7 +39,5 @@ if v:version >= 703
     set undofile
 endif
 
-noremap <F5> <Esc>:syntax sync fromstart<CR>
-inoremap <F5> <C-O>:syntax sync fromstart<CR>
-noremap <C-j> <Esc>:JSHint<CR>
-inoremap <C-j> <Esc>:JSHint<CR>
+nmap <C-s> :syntax sync fromstart<CR>
+nmap <C-j> :JSHint<CR>

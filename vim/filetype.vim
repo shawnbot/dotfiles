@@ -2,10 +2,11 @@ au BufNewFile,BufRead *.json  setf javascript
 au BufNewFile,BufRead *.less  setf less
 au BufNewFile,BufRead *.md    setf markdown
 
-" JavaScript, HTML and CSS all get 2-space tabs
-autocmd FileType javascript,js,json setlocal sts=2 sw=2
-autocmd FileType css,sass,less,scss setlocal sts=2 sw=2
+" JavaScript, HTML, CSS, and YAML all get 2-space tabs
+autocmd FileType javascript,json    setlocal sts=2 sw=2
+autocmd FileType css,less,sass,scss setlocal sts=2 sw=2
 autocmd FileType html               setlocal sts=2 sw=2
+autocmd FileType yaml               setlocal sts=2 sw=2
 
 " 4-space tabs in python
 autocmd FileType python setlocal sts=4 sw=4

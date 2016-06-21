@@ -14,11 +14,18 @@ export PATH="/usr/local/bin:/usr/local/opt/ruby/bin:$NODE_PATH:$PATH"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/work
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-source /usr/local/bin/virtualenvwrapper.sh
+virtualenvwrapper='/usr/local/bin/virtualenvwrapper.sh'
+if [ -f $virtualenvwrapper ]; then
+    source $virtualenvwrapper;
+fi
 
+# activate virtualenv in sub-shells (e.g. inside screen)
 if [ "$VIRTUAL_ENV" ]; then 
     source $VIRTUAL_ENV/bin/activate; 
 fi
 
 # autoenv
-[ -s /usr/local/opt/autoenv ] && source /usr/local/opt/autoenv/activate.sh
+autoenv_activate='/usr/local/opt/autoenv/activate.sh'
+if [ -f $autoenv_activate ]; then
+    source $autoenv_activate;
+fi

@@ -1,6 +1,6 @@
 [user]
-	name = Shawn Allen
-	email = shawn.allen@gsa.gov
+    name = Shawn Allen
+    email = shawn.allen@gsa.gov
 
 [alias]
     st = status
@@ -15,9 +15,13 @@
     spull = !git stash save && git pull && git stash pop
 
 [push]
-	default = simple
+    default = simple
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+    clean = git-media-clean %f
+    smudge = git-media-smudge %f
 [core]
-	excludesfile = /Users/allens/.gitignore
+    excludesfile = /Users/allens/.gitignore
+[filter "lfs"]
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true

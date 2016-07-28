@@ -7,7 +7,7 @@ export RSYNC_RSH=ssh
 # prioritize Homebrew and other locally installed binaries
 export NODE_PATH="/usr/local/lib/node_modules:/usr/local/lib/node"
 export GDAL_PATH="/Library/Frameworks/GDAL.framework/Programs"
-export PATH="/usr/local/bin:/usr/local/opt/ruby/bin:$NODE_PATH:$PATH"
+export PATH="$NODE_PATH:$PATH"
 
 # virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
@@ -27,4 +27,15 @@ fi
 autoenv_activate='/usr/local/opt/autoenv/activate.sh'
 if [ -f $autoenv_activate ]; then
     source $autoenv_activate;
+fi
+
+# rvm
+if [ -f ~/.rvm ]; then
+    source ~/.rvm/scripts/rvm;
+fi
+
+# nvm
+if [ -f $HOME/.nvm ]; then
+    export NVM_DIR=~/.nvm
+    source $(brew --prefix nvm)/nvm.sh
 fi

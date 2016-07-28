@@ -1,3 +1,4 @@
+au BufNewFile,BufRead *.hbs   setf html
 au BufNewFile,BufRead *.json  setf javascript
 au BufNewFile,BufRead *.less  setf less
 au BufNewFile,BufRead *.md    setf markdown

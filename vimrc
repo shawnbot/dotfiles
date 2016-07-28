@@ -32,6 +32,8 @@ filetype plugin indent on
 " Markdown
 let g:markdown_fenced_languages = ['css', 'javascript', 'js=javascript', 'json=javascript', 'html', 'sass', 'xml', 'ruby']
 let g:javascript_enable_domhtmlcss = 1
+let g:vim_markdown_frontmatter = 1
+let g:vim_markdown_new_list_item_indent = 2
 
 " undo settings
 if v:version >= 703

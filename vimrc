@@ -29,6 +29,9 @@ colorscheme jellybeans
 syntax enable
 filetype plugin indent on
 
+" GitGutter
+let g:gitgutter_enabled = 1
+
 " Markdown
 let g:markdown_fenced_languages = ['css', 'javascript', 'js=javascript', 'json=javascript', 'html', 'sass', 'xml', 'ruby']
 let g:javascript_enable_domhtmlcss = 1

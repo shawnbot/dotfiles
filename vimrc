@@ -42,6 +42,10 @@ filetype plugin indent on
 " lots of undo history
 set history=512
 
+" ctrlp
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 " GitGutter
 let g:gitgutter_enabled = 1
 

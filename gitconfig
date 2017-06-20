@@ -1,6 +1,6 @@
 [user]
     name = Shawn Allen
-    email = shawn.allen@gsa.gov
+    email = shawn.allen@github.com
 
 [alias]
     st = status
@@ -16,11 +16,14 @@
 
 [push]
     default = simple
+
 [filter "media"]
     clean = git-media-clean %f
     smudge = git-media-smudge %f
+
 [core]
     excludesfile = /Users/allens/.gitignore
+
 [filter "lfs"]
     clean = git-lfs clean %f
     smudge = git-lfs smudge %f

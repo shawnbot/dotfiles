@@ -1,4 +1,4 @@
-export PROMPT="%n@%m:%B%~%b%# "
+export PROMPT="shawnbot@github:%B%~%b%# "
 export EDITOR=vim
 export VISUAL=vim
 export PAGER=less

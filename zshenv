@@ -33,9 +33,3 @@ fi
 if [ -f ~/.rvm ]; then
     source ~/.rvm/scripts/rvm;
 fi
-
-# nvm
-if [ -f $HOME/.nvm ]; then
-    export NVM_DIR=~/.nvm
-    source $(brew --prefix nvm)/nvm.sh
-fi

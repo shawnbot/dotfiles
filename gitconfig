@@ -9,10 +9,11 @@
     co = checkout
     df = diff
     lg = log -p
-    pr = pull --rebase
+    pr = !git-pr
     lsd = log --graph --decorate --pretty=oneline --abbrev-commit
     lsda = log --graph --decorate --pretty=oneline --abbrev-commit --all
     spull = !git stash save && git pull && git stash pop
+    please = push --force-with-lease
 
 [push]
     default = simple

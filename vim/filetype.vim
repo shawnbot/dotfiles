@@ -2,6 +2,7 @@ au BufNewFile,BufRead *.hbs   setf html
 au BufNewFile,BufRead *.json  setf javascript
 au BufNewFile,BufRead *.less  setf less
 au BufNewFile,BufRead *.md    setf markdown
+au BufNewFile,BufRead .babelrc setf json
 
 " JavaScript, HTML, CSS, and YAML all get 2-space tabs
 autocmd FileType javascript,json    setlocal sts=2 sw=2

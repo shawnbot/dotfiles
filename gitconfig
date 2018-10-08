@@ -22,7 +22,7 @@
     smudge = git-media-smudge %f
 
 [core]
-    excludesfile = /Users/allens/.gitignore
+    excludesfile = /Users/shawnbot/.gitignore
 
 [filter "lfs"]
     clean = git-lfs clean %f

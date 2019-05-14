@@ -57,3 +57,4 @@ let g:vim_markdown_new_list_item_indent = 2
 
 nmap <C-s> :syntax sync fromstart<CR>
 nmap <C-j> :JSHint<CR>
+nmap <C-p> <Plug>(Prettier)

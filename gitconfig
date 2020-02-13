@@ -1,6 +1,6 @@
 [user]
     name = Shawn Allen
-    email = shawn.allen@hush.com
+    email = shawnbot@users.noreply.github.com
 
 [alias]
     st = status
@@ -14,7 +14,4 @@
     spull = !git stash save && git pull && git stash pop
 
 [push]
-    default = matching
-[filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+    default = current

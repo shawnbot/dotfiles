@@ -13,5 +13,11 @@
     lsd = log --graph --decorate --pretty=oneline --abbrev-commit --all
     spull = !git stash save && git pull && git stash pop
 
+[core]
+    excludesfile = ~/.gitignore
+
 [push]
     default = current
+
+[credential]
+    helper = osxkeychain
